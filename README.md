@@ -4,7 +4,7 @@ This Power BI project analyzes a large-scale e-commerce dataset to explore gener
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This dashboard uses e-commerce data integrated from multiple tables (Users, Orders, Order Details, Products, Addresses, Regions) to uncover insights about:
 
@@ -16,9 +16,9 @@ This dashboard uses e-commerce data integrated from multiple tables (Users, Orde
 
 ---
 
-## 🔍 Dashboard Preview
+## Dashboard Preview
 
-🔗 [View the Full Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=0f0f41bd-925b-436c-a36b-e4c30f91f2d1)
+🔗 [View the Full Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=6b491ab9-e2fb-429c-94eb-5d7b9aa97889)
 
 | Start Page | Sales & Customer Overview | Customer Insights | Category Insights |
 |------------|----------------------------|-------------------|-------------------|
