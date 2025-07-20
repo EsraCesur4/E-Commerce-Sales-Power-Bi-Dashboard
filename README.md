@@ -22,11 +22,11 @@ This dashboard uses e-commerce data integrated from multiple tables (Users, Orde
 
 | Start Page | Sales & Customer Overview | Customer Insights | Category Insights |
 |------------|----------------------------|-------------------|-------------------|
-| ![Start](images/start_page.png) | ![Overview](images/page1_overview.png) | ![Customer](images/page2_customer.png) | ![Category](images/page3_category.png) |
+| ![Start](Dashboard%20Pages/Start_Page.png) | ![Overview](Dashboard%20Pages/General_Overview_Page.png) | ![Customer](Dashboard%20Pages/Customer_Perspective_Page.png) | ![Category](Dashboard%20Pages/Product_Category_Perspective_Page.png) |
 
 ---
 
-## 🧭 Dashboard Structure
+## Dashboard Structure
 
 The report contains **3 main analysis pages** and a **Start Page** for navigation:
 
@@ -46,7 +46,7 @@ This page provides a general summary of total performance metrics and sales tren
   - Avg. Order Value (792K TL)  
   - Total Order Count
 - Hourly Sales by Revenue (Line Chart)
-- Regional Sales Map (by city/region)
+- Regional Sales Map and Bar Chart (by city/region)
 - Weekday vs Weekend Sales Pie Chart
 
 ### 📄 Page 2 – Customer Perspective
@@ -68,7 +68,7 @@ This page focuses on **category-level trends**, especially for young consumers i
 
 ---
 
-## 🧮 DAX Highlights
+## DAX Highlights
 
 Several calculated columns and measures were created using DAX to enrich analysis:
 
@@ -83,7 +83,7 @@ Several calculated columns and measures were created using DAX to enrich analysi
 
 ---
 
-## 🧩 Filters (Slicers) Used
+## Filters (Slicers) Used
 
 All pages include interactive slicers for:
 
@@ -96,5 +96,22 @@ These filters are synced across all report pages for dynamic exploration.
 
 ---
 
-## 🗃️ File Structure
+## 🗃️ File Structure  
+📁 E-Commerce-Sales-Power-Bi-Dashboard 
+├── 📁 Dashboard Pages  
+│   ├── Start_Page.png  
+│   ├── General_Overview_Page.png  
+│   ├── Customer_Perspective_Page.png  
+│   └── Product_Category_Perspective_Page.png  
+├── 📁 Dataset Tables  
+│   ├── SehirlerBolgeler.xlsx  
+│   ├── adres.csv  
+│   ├── items.csv  
+│   ├── orderdetail.csv  
+│   ├── orders.csv  
+│   └── users.csv  
+├── 📁 Power Bi  
+│   └── E_Ticaret_Satış_Analizi_Power_Bi.pbix  
+└── README.md  
+
 
